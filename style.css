@@ -13,6 +13,7 @@
 }
 body{
     background-color: #e9d9e5;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -74,8 +75,8 @@ ul li{
     flex-wrap: wrap;
     margin-top: 20px;
     margin-left: 18rem;
-    margin-right:29rem;
-    background-color: #b470a0;
+    margin-right:11rem;
+    background-color: #e9d9e5;;
     text-align: center;
 
 
