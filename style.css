@@ -12,12 +12,11 @@
     
 }
 body{
-    background-color: #e9d9e5;
-    overflow-x: hidden;
+    background-color: #d374a8;
 }
 nav{
     display: flex;
-    background-color: rgb(134, 85, 124);
+    background-color: rgb(165, 80, 144);
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -62,36 +61,36 @@ ul li{
     padding: 5px;
     border-radius: none;
     background-color:black;
-    color: #b27dbd;
+    color: #F4EEEE;
     cursor: pointer;
 }
 #tton:hover{
-    background-color: #c913da;
-    color: rgb(227, 207, 230);
+    background-color: #da8ebd;
+    color: black;
     transition: 0.5s;
 }
 .wrapper{
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 20px;
     margin-left: 18rem;
-    margin-right:11rem;
-    background-color: #e9d9e5;;
-    text-align: center;
+    margin-right:18rem;
+    background-color:rgb(233, 169, 217);
 
 
    
 }
 .btn{
     color:white;
-    background-color: grey;
+    background-color: rgb(238, 102, 231);
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
 
 }
 .btn:hover{
-    background-color: #F4EEEE;
+    background-color: #f4eef2;
     color: black;
     transition: 0.5s;
 }
@@ -120,5 +119,5 @@ ul li{
     margin-left: 5px;
 }
 .price-button .price{
-    color: rgb(209, 95, 200);
+    color: grey;
 }
